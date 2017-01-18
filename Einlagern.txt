@@ -1,1 +1,1 @@
-javascript:Snob.Coin.setCoinAmount();$("input.btn[type='submit']").eq(0).click();void(0);
+javascript:Snob.Coin.setCoinAmount();amount=$("#selectedBunches_top").text();$("input.btn[type='submit']").eq(0).click();$("h2").eq(0).text($("h2").eq(0).text()+" Münzen geprägt: "+amount);void(0);
